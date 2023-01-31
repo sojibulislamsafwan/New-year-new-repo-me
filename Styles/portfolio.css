@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    
+    width: 1600px;
+    height: 808px;
+    left: 1600px;
+    top: 808px;
+    background-repeat: no-repeat;
+
+}
+.banner-title{
+    position: absolute;
+    height: 228px;
+    width: 525px;
+    left: 845px;
+    top: 216px;
+    color: #151414;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-description{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    margin-top: 24px;
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+}
+.btn-primary{
+    position: absolute;
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px; 
+    height: 64px;
+    border-radius: 50px;
+    background: #FD6E0A;
+}
+.lady{
+    position: absolute;
+    width: 569px;
+    height: 724px;
+    left: 206px;
+    top: 940px;
+    margin-top: 131px;
+    margin-bottom: 130px;
+    gap: 70px;
+}
+.My-failures-of-previous-year{
+position: absolute;
+width: 416px;
+height: 400px;
+left: 862px;
+top: 1178px;
+}
+.section-title{
+    color: #151414;
+   
+    height: 94px;
+    width: 288px;
+    left: 862px;
+    top: 1178px;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom:24px;
+    margin-left: 87px;
+}
+.section-description{
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #444343;
+    font-size: normal;
+    line-height: 26px;
+    margin-left: 87px;
+}
+.about-info-container{
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+    margin-left: 87px;
+    margin-bottom: 214px;
+   
+}
+.check{
+    color: blue;
+    margin-right: 5px;
+}
+.My-plans{
+    height: 300px;
+    width: 1124px;
+    left: 247px;
+    top: 1793px;
+    position: absolute;
+    margin-left: 5px;
+}
+.My-plans-container{
+    display: flex;
+    gap: 86px;
+}
