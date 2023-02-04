@@ -16,12 +16,12 @@ body{
     height: 228px;
     width: 525px;
     left: 845px;
-    top: 216px;
+    top: 240px;
     color: #151414;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 65px;
-    line-height: 76px;
+    line-height: 40px;
     text-align: right;
 }
 .banner-description{
