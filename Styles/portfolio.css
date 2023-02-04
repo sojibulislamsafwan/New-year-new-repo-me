@@ -48,30 +48,37 @@ body{
     border: 0;
     padding: 18px 35px; 
     height: 64px;
-    border-radius: 50px;
+    border-radius: 30px;
     background: #FD6E0A;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .lady{
-    position: absolute;
+   
     width: 569px;
     height: 724px;
-    left: 206px;
-    top: 940px;
-    margin-top: 131px;
     margin-bottom: 130px;
-    gap: 70px;
+    margin-right: 70px;
+}
+.lady-part{
+    display: flex;
+}
+.about-info-container{
+    margin-top: 220px;
 }
 .My-failures-of-previous-year{
-position: absolute;
 width: 416px;
 height: 400px;
-left: 862px;
-top: 1178px;
 }
+
+
 .section-title{
     color: #151414;
    
     height: 94px;
+
     width: 288px;
     left: 862px;
     top: 1178px;
@@ -80,40 +87,103 @@ top: 1178px;
     margin-bottom:24px;
     margin-left: 87px;
 }
-.section-description{
-    width: 416px;
-    height: 104px;
-    left: 862px;
-    top: 1296px;
-    font-size: 16px;
-    font-weight: 400px;
-    color: #444343;
-    font-size: normal;
-    line-height: 26px;
-    margin-left: 87px;
+.mindset{
+    background-repeat: no-repeat;
+    background-image: linear-gradient( linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%));
 }
-.about-info-container{
-    width: 349px;
-    height: 162px;
-    left: 862px;
-    top: 1416px;
-    margin-left: 87px;
-    margin-bottom: 214px;
-   
+.Plans-title{
+    text-align: center;
+}
+.another-section{
+    display: flex;
+    gap: 120px;
+    margin-left: 20px;
+}
+.plan{
+    margin-right: 40px;
+}
+.watch{
+    background-image: url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    /* background:linear-gradient(90deg, #a05233 0%, rgba(252, 133, 86, 0) 100%); */
+}
+.group{
+    width: 459px;
+    height: 182px;
+    margin-left: 64px;
+    margin-right: 617px;
+    margin-top: 59px;
+    margin-bottom: 59px;
+}
+.title{
+    position: absolute;
+width: 459px;
+height: 94px;
+font-size: 40px;
+font-weight: 700px;
+color: #FFFFFF;
+margin-left: 64px;
+margin-top: 60px;
+}
+.button{
+    position: absolute;
+    height: 64px;
+    width: 160px;
+    margin-top: 177px;
+    margin-bottom: 59px;
+    margin-left: 64px;
+    margin-right: 916px;
+    border-radius: 5px;
+    color: red;
 }
 .check{
     color: blue;
-    margin-right: 5px;
 }
-.My-plans{
-    height: 300px;
-    width: 1124px;
-    left: 247px;
-    top: 1793px;
-    position: absolute;
-    margin-left: 5px;
-}
-.My-plans-container{
+.last-section{
     display: flex;
-    gap: 86px;
+    margin-top: 30px;
+    gap: 400px;
+    background-color: black;
 }
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-description{
+    width: 500px;
+    color: white;
+}
+.footer-title{
+    color: white;
+}
+.Email{
+    color: white;
+}
+.phone{
+    color: white;
+}
+.sub{
+    color: white;
+}
+.last-part{
+    margin: 30px;
+}
+.email{
+    width: 140px;
+    height: 10px;
+    padding: 20px;
+    background-color: none;
+}
+.last-btn{
+    background-color: white;
+    color: #F15B22;
+    width: 90px;
+    height: 40px;
+    border: 10px;
+    border-radius: 4px;
+}
+
+
